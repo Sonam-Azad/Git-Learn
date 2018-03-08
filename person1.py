@@ -7,7 +7,7 @@ length = int(input('[.]Password length?\n[.]'))
 
 f = open('path/location','w')
 
-for i in range(times):
+while(true)
 	password = ''
 	for j in range(length):
 		password += random.choice(chars)
